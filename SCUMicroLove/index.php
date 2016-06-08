@@ -20,7 +20,7 @@ define('COMMON_PATH','./Common/');
 define('APP_DEBUG',true);
 
 // 定义应用目录
-define('LOCALHOST', 'http://localhost:8060/SCUMicroLove/');
+define('LOCALHOST', 'http://localhost:8083/SCUMicroLove/');
 
 
 define('APP_PATH','./Application/');
