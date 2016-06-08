@@ -1,0 +1,504 @@
+[ 2015-08-02T00:07:28+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013967s ]
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.064045s ]
+NOTIC: [2] Missing argument 1 for Think\Model::getField(), called in D:\ProgramData\Apache Software Foundation\Apache2.2\htdocs\wh.com\SCUMicroLove\Application\Home\Controller\WishstoryApplicationController.class.php on line 8 and defined D:\ProgramData\Apache Software Foundation\Apache2.2\htdocs\wh.com\SCUMicroLove\ThinkPHP\Library\Think\Model.class.php 第 786 行.
+NOTIC: [8] Undefined variable: field D:\ProgramData\Apache Software Foundation\Apache2.2\htdocs\wh.com\SCUMicroLove\ThinkPHP\Library\Think\Model.class.php 第 787 行.
+NOTIC: [8] Undefined variable: field D:\ProgramData\Apache Software Foundation\Apache2.2\htdocs\wh.com\SCUMicroLove\ThinkPHP\Library\Think\Model.class.php 第 798 行.
+SQL: SELECT * FROM `ml_wishstoryapplication` LIMIT 1   [ RunTime:0.000347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015880s ]
+
+[ 2015-08-02T00:10:19+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.002567s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000248s ]
+
+[ 2015-08-02T00:13:36+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.002930s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000561s ]
+
+[ 2015-08-02T00:15:14+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.003395s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.002545s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000218s ]
+
+[ 2015-08-02T00:16:14+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002186s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.003707s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000195s ]
+
+[ 2015-08-02T00:18:48+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002080s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.002199s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000244s ]
+
+[ 2015-08-02T00:23:14+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002139s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.002778s ]
+
+[ 2015-08-02T00:23:28+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002141s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.002778s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000333s ]
+
+[ 2015-08-02T00:24:22+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002029s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.002439s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000273s ]
+
+[ 2015-08-02T00:24:27+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002563s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.004566s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000292s ]
+
+[ 2015-08-02T00:25:14+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.003157s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.007309s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000249s ]
+
+[ 2015-08-02T00:26:03+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002283s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002366s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application`  [ RunTime:0.000435s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application` 
+
+[ 2015-08-02T00:26:49+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002263s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002319s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application`  [ RunTime:0.000415s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application` 
+
+[ 2015-08-02T00:26:53+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002160s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.001870s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application`  [ RunTime:0.000258s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application` 
+
+[ 2015-08-02T00:27:30+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.004931s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.005685s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application`  [ RunTime:0.000265s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application` 
+
+[ 2015-08-02T00:27:32+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.001976s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002098s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application`  [ RunTime:0.000275s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application` 
+
+[ 2015-08-02T00:27:42+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002137s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.003786s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application`  [ RunTime:0.000332s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application` 
+
+[ 2015-08-02T00:28:39+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002647s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.003655s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application`  [ RunTime:0.000321s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application` 
+
+[ 2015-08-02T00:28:41+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002255s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002700s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application`  [ RunTime:0.000384s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstory_application` 
+
+[ 2015-08-02T00:30:52+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002261s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.002355s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000213s ]
+
+[ 2015-08-02T00:30:57+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2015-08-02T00:31:05+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001028s ]
+
+[ 2015-08-02T00:31:30+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002375s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.003162s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000651s ]
+
+[ 2015-08-02T00:32:08+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.003189s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.072891s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000256s ]
+
+[ 2015-08-02T00:35:56+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.003899s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.002586s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000197s ]
+
+[ 2015-08-02T00:35:58+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002266s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.003113s ]
+SQL: SELECT `wishstory_id`,`stu_id`,`stu_name` FROM `ml_wishstoryapplication`  [ RunTime:0.000285s ]
+
+[ 2015-08-02T00:36:17+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002304s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.002799s ]
+SQL: SELECT * FROM `ml_wishstoryapplication`  [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2015-08-02T00:38:31+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002444s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.004069s ]
+SQL: SELECT * FROM `ml_wishstoryapplication`  [ RunTime:0.000299s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2015-08-02T00:51:12+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+
+[ 2015-08-02T00:52:08+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: data D:\ProgramData\Apache Software Foundation\Apache2.2\htdocs\wh.com\SCUMicroLove\Application\Runtime\Cache\Home\03e6c71f36f084ecc54fef5560a1648a.php 第 14 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2015-08-02T00:52:18+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002422s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.002638s ]
+SQL: SELECT * FROM `ml_wishstoryapplication`  [ RunTime:0.000283s ]
+ERR: 模板不存在:./Application/Home/View/WishstoryApplication/select.html
+
+[ 2015-08-02T00:53:09+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.002553s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.003046s ]
+SQL: SELECT * FROM `ml_wishstoryapplication`  [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+

@@ -1,0 +1,408 @@
+[ 2016-03-30T12:17:48+08:00 ] 118.113.135.166 /SCUMicroLove/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_photoand_word` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_photoand_word' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_photoand_word`
+SQL: SHOW COLUMNS FROM `ml_photoandword` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_photoandword`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `ml_claimant`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) ORDER BY wishstory_id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-30T12:18:25+08:00 ] 118.113.135.166 /SCUMicroLove/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_photoand_word` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_photoand_word' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_photoand_word`
+SQL: SHOW COLUMNS FROM `ml_photoandword` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_photoandword`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_claimant`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) ORDER BY wishstory_id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-30T12:19:44+08:00 ] 118.113.135.166 /SCUMicroLove/Home/Introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_photoand_word` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_photoand_word' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_photoand_word`
+SQL: SHOW COLUMNS FROM `ml_photoandword` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_photoandword`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_claimant`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-30T12:50:09+08:00 ] 202.115.53.79 /SCUMicroLove/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_photoand_word` [ RunTime:0.015625s ]
+ERR: 1146:Table 'microlove.ml_photoand_word' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_photoand_word`
+SQL: SHOW COLUMNS FROM `ml_photoandword` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `ml_photoandword`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.031250s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_claimant`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.015625s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.031250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) ORDER BY wishstory_id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015625s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2016-03-30T13:54:33+08:00 ] 68.180.230.246 /SCUMicroLove/Home/Preview?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_photoand_word` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_photoand_word' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_photoand_word`
+SQL: SHOW COLUMNS FROM `ml_photoandword` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `ml_photoandword`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_claimant`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.031250s ]
+SQL: SELECT * FROM `ml_wishstoryapplication` WHERE ( wishstory_id =6 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_photoandword` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_photoandword` WHERE ( wishstory_id =6 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-30T14:07:37+08:00 ] 118.113.135.166 /SCUMicroLove/Home/ClaimantWord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_photoand_word` [ RunTime:0.015625s ]
+ERR: 1146:Table 'microlove.ml_photoand_word' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_photoand_word`
+SQL: SHOW COLUMNS FROM `ml_photoandword` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_photoandword`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ml_claimant` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_claimant` LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-30T14:07:44+08:00 ] 118.113.135.166 /SCUMicroLove/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_photoand_word` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_photoand_word' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_photoand_word`
+SQL: SHOW COLUMNS FROM `ml_photoandword` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `ml_photoandword`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `ml_claimant`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.015625s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) ORDER BY wishstory_id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-30T14:44:38+08:00 ] 118.113.135.166 /SCUMicroLove/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_photoand_word` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_photoand_word' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_photoand_word`
+SQL: SHOW COLUMNS FROM `ml_photoandword` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `ml_photoandword`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `ml_claimant`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.015625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) ORDER BY wishstory_id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-30T14:48:07+08:00 ] 118.113.135.166 /SCUMicroLove/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_photoand_word` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_photoand_word' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_photoand_word`
+SQL: SHOW COLUMNS FROM `ml_photoandword` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `ml_photoandword`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_claimant`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) ORDER BY wishstory_id desc LIMIT 0,10   [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-30T16:22:06+08:00 ] 118.113.135.166 /SCUMicroLove/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_photoand_word` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_photoand_word' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_photoand_word`
+SQL: SHOW COLUMNS FROM `ml_photoandword` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_photoandword`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_claimant`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) ORDER BY wishstory_id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-30T16:22:20+08:00 ] 118.113.135.166 /SCUMicroLove/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ml_photoand_word` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_photoand_word' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_photoand_word`
+SQL: SHOW COLUMNS FROM `ml_photoandword` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `ml_photoandword`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_claimant`  [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) ORDER BY wishstory_id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-30T16:27:15+08:00 ] 118.113.135.166 /SCUMicroLove/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_photoand_word` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_photoand_word' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_photoand_word`
+SQL: SHOW COLUMNS FROM `ml_photoandword` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_photoandword`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_claimant` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ml_claimant`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstory_application` [ RunTime:0.000000s ]
+ERR: 1146:Table 'microlove.ml_wishstory_application' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ml_wishstory_application`
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ml_wishstoryapplication` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `ml_wishstoryapplication` WHERE ( stu_claimstate = 0 ) ORDER BY wishstory_id desc LIMIT 0,10   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

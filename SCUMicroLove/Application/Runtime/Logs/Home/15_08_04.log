@@ -1,0 +1,22 @@
+[ 2015-08-04T14:18:06+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012029s ]
+
+[ 2015-08-04T14:18:10+08:00 ] 127.0.0.1 /SCUMicroLove/index.php/Home/WishstoryApplication/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
