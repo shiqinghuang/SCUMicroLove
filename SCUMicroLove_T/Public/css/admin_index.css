@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+}
+input{
+	cursor:pointer;
+}
+/*admin_login*/
+.login{
+	width:320px;
+	height:270px;
+	background:rgba(255,255,255,0.8);
+	margin:150px auto;
+	border-radius:15px;
+	border:groove 5px #41B4F8;
+	box-shadow:#fff 2px 4px 6px;
+	padding:10px 20px 0 50px;;
+}
+.login h1,h3{
+	color:#888;
+	text-shadow:#fff 2px 2px 2px;
+	margin:10px;
+}
+.login input{
+	height:25px;
+	margin-top:8px;
+	border-radius:5px;
+	text-indent:5px;
+	width:200px;
+}
+.login input.check{
+	width:100px;
+}
+.login input.but{
+	width:100px;
+	height:30px;
+	font-weight:bold;
+	margin:10px 10px 0 0;
+}
+.login #checkCode {
+	width:60px;
+	height:15px;
+	color:red;
+	font-size:18px;
+	font-family:Arial;
+	font-style:italic;
+	border:0;
+	padding:2px 3px;
+	letter-spacing:3px;
+	font-weight:bolder;
+}
+.login .refresh {
+	font-size: 14px;
+	color: red;
+}
+.login .text {
+	font-size: 16px;
+	color: #F00;
+}
+.login a{
+	text-decoration:none;
+}
+/*admin*/
+.content{
+	width:900px;
+	margin:10px auto;
+	padding:5px 0;
+	background:#fff;
+	box-shadow:rgba(143, 143, 143, 1) 2px 2px 15px;
+}
+.content .head h1{
+	text-align:center;
+	margin:10px;
+	text-shadow:#ccc 2px 2px 2px;
+}
+.content .head a{
+	float:right;
+	color:#f00;
+	margin:5px;
+	cursor:pointer;
+}
+.content .nav{
+	float:left;
+}
+.content .nav input{
+	height:30px;
+	width:120px;
+	margin: 0px 10px 10px 10px;
+	font-weight:bold;
+	font-size:15px;
+	color:#fff;
+	background:#ABC4FE;
+	border-radius:5px;
+}
+.content .con span.search{
+	float:right;
+	background:#C0C4FA;
+	margin:0px 10px;
+	padding:3px;
+}
+table#list tr,table#ruyuan_list tr{
+	text-align:center;
+	height:28px;
+}
+table#list tr:hover,table#ruyuan_list tr:hover{
+	background:#CDECFE;
+}
+
+.content .con_onload{
+	height:auto;
+	padding:20px;
+	line-height:25px;
+	border:#eee groove 5px;
+}
+.content .con_onload textarea{
+	width:800px;
+	height:100px;
+	resize:none;
+	padding:20px;
+	font-size:15px;
+	line-height:20PX;
+}
+.content .con_onload input.btn{
+	height:30px;
+	width:100px;
+	margin:0px 15px;
+	font-weight:bold;
+	font-size:15px;
+	color:#fff;
+	background:#ABC4FE;
+	border-radius:5px;
+}
+.content .con_chakan{
+	height:auto;
+	padding:20px 40px;
+	line-height:25px;
+	border:#eee groove 5px;
+}
+.content .con_chakan td{
+	text-indent:20px;
+}

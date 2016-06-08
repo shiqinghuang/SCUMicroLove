@@ -1,0 +1,1 @@
+a:6:{i:0;s:12:"wishstory_id";i:1;s:12:"picture_path";i:2;s:8:"stu_word";i:3;s:8:"postdate";s:3:"_pk";s:12:"wishstory_id";s:5:"_type";a:4:{s:12:"wishstory_id";s:7:"int(11)";s:12:"picture_path";s:12:"varchar(100)";s:8:"stu_word";s:12:"varchar(200)";s:8:"postdate";s:4:"date";}}
